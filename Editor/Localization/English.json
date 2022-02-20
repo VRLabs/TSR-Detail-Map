@@ -1,0 +1,114 @@
+{
+    "Properties": [
+        {
+            "Name": "Detail",
+            "DisplayName": "Detail Map",
+            "Tooltip": "Detail Map section"
+        },
+        {
+            "Name": "Detail_Path",
+            "DisplayName": "",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Detail Mask",
+            "DisplayName": "Detail Mask",
+            "Tooltip": "Mask for the detail Textures"
+        },
+        {
+            "Name": "Detail Mask_UV",
+            "DisplayName": "UV set",
+            "Tooltip": "UV set for the detail mask"
+        },
+        {
+            "Name": "Detail Albedo",
+            "DisplayName": "Albedo",
+            "Tooltip": "Detail Albedo"
+        },
+        {
+            "Name": "Detail Albedo_UV",
+            "DisplayName": "UV set",
+            "Tooltip": "UV set for the detail albedo"
+        },
+        {
+            "Name": "Detail Normal",
+            "DisplayName": "Normal",
+            "Tooltip": "Detail normal"
+        },
+        {
+            "Name": "Detail Normal_UV",
+            "DisplayName": "UV set",
+            "Tooltip": "UV set for the detail normal"
+        },
+        {
+            "Name": "Detail MSSO",
+            "DisplayName": "MSSO",
+            "Tooltip": "Detail MSSO"
+        },
+        {
+            "Name": "Detail MSSO_GeneratorOpen",
+            "DisplayName": "Open Merger",
+            "Tooltip": "Open a merger to generate a MSSO texture"
+        },
+        {
+            "Name": "Detail MSSO_GeneratorSaveButton",
+            "DisplayName": "Generate Texture",
+            "Tooltip": "Generate and assigns the MSSO texture"
+        },
+        {
+            "Name": "Detail MSSO_GeneratorCancelButton",
+            "DisplayName": "Cancel",
+            "Tooltip": "Cancels the operation and closes the generator"
+        },
+        {
+            "Name": "Detail MSSO_GeneratorTextureSize",
+            "DisplayName": "Size",
+            "Tooltip": "Size of the generated texture"
+        },
+        {
+            "Name": "Detail MSSO_GeneratorPreview",
+            "DisplayName": "Preview",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Detail MSSO_GeneratorLinearSpace",
+            "DisplayName": "Linear space",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Detail MSSO_Input_RGBAPacker_RedTexture",
+            "DisplayName": "Metallic map",
+            "Tooltip": "Metallic map texture"
+        },
+        {
+            "Name": "Detail MSSO_Input_RGBAPacker_Invert",
+            "DisplayName": "Invert",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Detail MSSO_Input_RGBAPacker_Channel",
+            "DisplayName": "",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Detail MSSO_Input_RGBAPacker_GreenTexture",
+            "DisplayName": "Smoothness map",
+            "Tooltip": "Smoothness map texture"
+        },
+        {
+            "Name": "Detail MSSO_Input_RGBAPacker_BlueTexture",
+            "DisplayName": "Specular map",
+            "Tooltip": "Specular map texture"
+        },
+        {
+            "Name": "Detail MSSO_Input_RGBAPacker_AlphaTexture",
+            "DisplayName": "Occlusion map",
+            "Tooltip": "Occlusion map texture"
+        },
+        {
+            "Name": "Detail MSSO_UV",
+            "DisplayName": "UV set",
+            "Tooltip": "UV set for the detail MSSO"
+        }
+    ]
+}

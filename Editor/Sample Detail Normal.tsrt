@@ -1,0 +1,6 @@
+void SampleDetailNormal()
+{
+    float3 detailNormals =UnpackScaleNormal(UNITY_SAMPLE_TEX2D_SAMPLER(_DetailBumpMap, _DetailAlbedo, TSR_TRANSFORM_TEX(Uvs, _DetailBumpMap)), _DetailBumpScale);
+	float3 finalNormals = normalize(float3(NormalMap.xy + detailNormals.xy, NormalMap.z * detailNormals.z));
+	NormalMap = lerp(NormalMap, finalNormals, DetailMask.r);
+}

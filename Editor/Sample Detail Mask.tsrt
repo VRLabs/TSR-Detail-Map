@@ -1,0 +1,4 @@
+void SampleDetailMask()
+{
+    DetailMask = UNITY_SAMPLE_TEX2D_SAMPLER(_DetailMask, _MainTex, TSR_TRANSFORM_TEX(Uvs, _DetailMask)) * _DetailIntensity;
+}

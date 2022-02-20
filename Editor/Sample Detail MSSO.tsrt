@@ -1,0 +1,5 @@
+void SampleDetailMSSO()
+{
+    Msso = lerp(Msso, UNITY_SAMPLE_TEX2D_SAMPLER(_DetailMSSO, _DetailAlbedo, TSR_TRANSFORM_TEX(Uvs, _DetailMSSO)), DetailMask.r);
+    Occlusion = lerp(1, Msso.a, _Occlusion);
+}

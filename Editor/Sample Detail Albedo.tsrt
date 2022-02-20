@@ -1,0 +1,4 @@
+void SampleDetailAlbedo()
+{
+    Albedo = lerp(Albedo, UNITY_SAMPLE_TEX2D(_DetailAlbedo, TSR_TRANSFORM_TEX(Uvs, _DetailAlbedo)) * _DetailColor, DetailMask.r);
+}
