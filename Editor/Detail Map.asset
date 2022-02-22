@@ -210,9 +210,6 @@ MonoBehaviour:
     ShaderFunctionCode: {fileID: -544282384758852595, guid: 1186baeb2818d1f46b3c8110bdf50b34,
       type: 3}
     UsedVariables:
-    - Name: Albedo
-      Type: 7
-      CustomType: 
     - Name: _DetailAlbedo
       Type: 17
       CustomType: 
