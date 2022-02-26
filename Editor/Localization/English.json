@@ -1,13 +1,13 @@
 {
     "Properties": [
         {
-            "Name": "Detail",
+            "Name": "Detail Section",
             "DisplayName": "Detail Map",
             "Tooltip": "Detail Map section"
         },
         {
-            "Name": "Detail_Path",
-            "DisplayName": "",
+            "Name": "Detail Section_Path",
+            "DisplayName": "Input",
             "Tooltip": ""
         },
         {
