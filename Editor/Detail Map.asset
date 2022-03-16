@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: VRLabs.TSR.DetailMap
   Name: Detail Map
-  Version: 1.0
+  Version: master
   Author: VRLabs
   Description: Adds a detail map slot to the shader
   EnableProperties:
